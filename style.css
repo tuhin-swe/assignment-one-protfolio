@@ -2,8 +2,8 @@
 .first-half {
     width: 40%;
     float: left;
-    margin :5%;
-    padding left: 2%;
+    margin:5%;
+    
 }
 .first-half img{
     width: 100%;
@@ -40,11 +40,11 @@ section{
 }
 .box-section{
     background-color:#E5E5E5;
-   
+     
 }
 .lastet{
-    text-align: center;
-    top: 1500px;
+    text-align:center;
+    margin-top: 5%;
 }
 .first-work{
     box-shadow: 10px 10px 30px gray;
@@ -53,9 +53,10 @@ section{
     height: 60%;
     background-color: white;
     width :25% ;
-    margin-left: 3%;
+    margin-left: 5%;
     padding-left: 20px;
     padding-right: 20px;
+    /* margin-right: 2%; */
 }
 .first-work img{
     width: 100%;
@@ -72,12 +73,33 @@ h3{
 .last-part{
     background-image: url("images/last.png");
     background-repeat: no-repeat;   
-    background-size: 960px 200px;
+    background-size: 930px 200px;
     background-position: center;
+    width: 100%;
 
 }
-.last-work{
-    text-align: center;
-    float: left;
+.first-word{
+    
+    position: relative;left: 100px; top:250px;
+    text-align:center;
+}
+.last-word{
+    position: relative; top:275px; right:100px ;
+    text-align:center;
 
+}
+footer{
+    text-align: center;
+    font-size: 18px;
+    
+    
+}
+.ft{
+    width: 2%;
+}
+#box{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
 }
